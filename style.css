@@ -9,48 +9,89 @@
 }
 
 header {
-    background-color: #f0f0f0;
     width: 100%;
+    position: fixed;
+    z-index: 1000;
+    background-color: #f0f0f0;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px 100px;
-    position: fixed;
-    z-index: 1000;
-
 }
 
 .logo {
-    color: aqua;
     text-decoration: none;
     font-size: 1.8em;
     font-weight: 700;
-    text-transform: uppercase;
 }
 
 .nav a {
     text-decoration: none;
-    color: aqua;
     padding-left: 20px;
-    font-size: 1.1em;
-    font-weight: 500;
-
 }
 
 .nav a:hover {
-    color: aquamarine;
+    color: aqua;
 }
-section{
+
+section {
     padding: 100px 100px;
 }
-.main{
+
+.main {
     border: solid 2px blue;
     width: 100%;
     min-height: 100vh;
     display: flex;
     align-items: center;
     background: url(images/background.jpeg) no-repeat;
-    background-attachment: fixed;
     background-position: center;
     background-size: cover;
+    background-attachment: fixed;
 }
+
+.main h2 {
+    color: #fff;
+    font-size: 1.4em;
+}
+
+.main h2 span {
+    color: blue;
+    font-size: 3em;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.main h3 {
+    color: #fff;
+    font-size: 2em;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.view-btn {
+    text-decoration: none;
+    color: #fff;
+    letter-spacing: 1px;
+    padding: 10px 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: inline-block;
+    background-color: rgb(54, 54, 238);
+    border-radius: 15px;
+    transition: 0.7s ease;
+}
+
+.view-btn:hover {
+
+    background-color: blue;
+    transform: scale(1.1);
+}
+
+.social-icons a {
+    color: #fff;
+    padding-right: 30px;
+    font-size: 1.7em;
+}
+
