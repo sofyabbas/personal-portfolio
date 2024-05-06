@@ -9,29 +9,32 @@
 }
 
 header {
-    width: 100%;
-    position: fixed;
-    z-index: 1000;
-    background-color: #f0f0f0;
     display: flex;
+    width: 100%;
     justify-content: space-between;
     align-items: center;
+    background-color: #f0f0f0;
     padding: 10px 100px;
+    position: fixed;
+    z-index: 1000;
 }
 
 .logo {
     text-decoration: none;
-    font-size: 1.8em;
+    font-size: 1.7em;
     font-weight: 700;
 }
 
 .nav a {
+    color: blue;
     text-decoration: none;
+    font-size: 1.2em;
+    font-weight: 400;
     padding-left: 20px;
 }
 
 .nav a:hover {
-    color: aqua;
+    color: rgb(93, 93, 235);
 }
 
 section {
@@ -39,59 +42,53 @@ section {
 }
 
 .main {
-    border: solid 2px blue;
     width: 100%;
     min-height: 100vh;
     display: flex;
     align-items: center;
     background: url(images/background.jpeg) no-repeat;
-    background-position: center;
     background-size: cover;
     background-attachment: fixed;
 }
 
 .main h2 {
     color: #fff;
-    font-size: 1.4em;
+    font-size: 1.1em;
+    font-weight: 500;
 }
 
 .main h2 span {
     color: blue;
-    font-size: 3em;
+    font-size: 2.4em;
+    font-weight: 700;
     display: inline-block;
-    margin-top: 10px;
-}
-
-.main h3 {
-    color: #fff;
-    font-size: 2em;
-    letter-spacing: 1px;
     margin-top: 10px;
     margin-bottom: 10px;
 }
 
+.main h3 {
+    color: #fff;
+    margin-bottom: 20px;
+}
+
 .view-btn {
     text-decoration: none;
-    color: #fff;
-    letter-spacing: 1px;
-    padding: 10px 20px;
-    margin-top: 20px;
-    margin-bottom: 20px;
     display: inline-block;
-    background-color: rgb(54, 54, 238);
+    margin-bottom: 10px;
+    color: #fff;
+    padding: 10px;
     border-radius: 15px;
+    letter-spacing: 1px;
+    background-color: rgb(93, 93, 235);
     transition: 0.7s ease;
 }
 
 .view-btn:hover {
-
     background-color: blue;
-    transform: scale(1.1);
+    transform: scale(1.2);
 }
-
-.social-icons a {
+.social-icons a{
     color: #fff;
-    padding-right: 30px;
-    font-size: 1.7em;
+    font-size: 2em;
+    padding-right: 20px;
 }
-
